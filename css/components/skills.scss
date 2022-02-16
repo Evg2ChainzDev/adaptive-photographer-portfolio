@@ -1,0 +1,48 @@
+
+.skills-section-title {
+  padding-top: 3px
+}
+
+.skills-section-title {
+  margin-bottom: 28px;
+} 
+
+.skills-items {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.skill-item {
+  background-position: center top;
+  width: 320px;
+  height: 240px;
+  padding: 80px 0 0 0;
+  text-align: center;
+  background-repeat: no-repeat;
+  background-size: 65px 50px;
+}
+
+.skill-item:nth-child(1) {
+  background-image: url('../assets/svg/camera.svg');
+}
+
+.skill-item:nth-child(2) {
+  background-image: url('../assets/svg/video.svg');
+}
+
+.skill-item:nth-child(3) {
+  background-image: url('../assets/svg/retouch.svg');
+
+}
+.skill-item:nth-child(4) {
+  background-image: url('../assets/svg/mic.svg');
+}
+
+
+.skill-item-text {
+  display: inline-block;
+  width: 280px;
+  padding: 0 0 0 0;
+}
+

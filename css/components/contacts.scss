@@ -1,0 +1,83 @@
+.contacts {
+    background: url('../assets/img/contacts.jpg');
+    background-repeat: no-repeat;
+    background-position: center 0;
+    height: 700px;
+
+}
+
+.contacts-form {
+    float: right;
+    padding: 45px 19px 0 0;
+}
+
+.contacts-form__section-title {
+    position: static;
+    padding-bottom: 25px;
+}
+
+// removing horizontal decoration line
+.contacts .contacts-form__section-title::after {
+    position: absolute;
+    border: 0px solid var(--gld);
+  }
+
+// removing horizontal decoration line
+  .contacts .contacts-form__section-title::before {
+    position: absolute;
+    border: 0px solid var(--gld);
+  }
+
+.contacts-form__input-email {
+    display: block;
+    width: 450px;
+    height: 50px;
+    border: 2px var(--gld) solid;
+    background: rgba($color: #000000, $alpha: 0.5);
+    padding-left: 20px;
+    color: var(--gld);
+}
+
+.contacts-form__input-email::placeholder {
+    color: var(--gld);
+}
+
+
+
+.contacts-form__input-phone {
+    display: block;
+    margin-top: 20px;
+    width: 450px;
+    height: 50px;
+    border: 2px var(--gld) solid;
+    background: rgba($color: #000000, $alpha: 0.5);
+    padding-left: 20px;
+    color: var(--gld);
+}
+
+.contacts-form__input-phone::placeholder {
+    color: var(--gld);
+}
+
+.contacts-form__input-textarea {
+    display: block;
+    margin-top: 20px;
+    width: 450px;
+    height: 100px;
+    border: 2px var(--gld) solid;
+    background: rgba($color:#000000, $alpha: 0.5);
+    padding: 10px 0 0 20px;
+    color: var(--gld);
+    resize: none;
+}
+
+.contacts-form__input-textarea::placeholder {
+    color: var(--gld);
+}
+
+.contacts .contacts-form__input-submit {
+    display: block;
+    margin-top: 30px;
+    padding-top: 10px;
+
+}

@@ -1,0 +1,76 @@
+.light-theme {
+        background-color: #fff;
+        color: #000 !important; 
+      };
+      
+.light-theme:hover {
+        color: #000;
+      }
+
+.light-theme .nav-link {
+  color: #000;
+}
+
+.light-theme H2 {
+  color: black;
+}
+
+.light-theme h2::before {
+  border: 1px solid black;
+}
+
+.light-theme h2::after {
+  border: 1px solid black;
+}
+
+.theme-btn__moon {
+    background-image: url('../assets/svg/moon.svg');
+}
+
+.light-theme .portfolio-btns button{
+  color: #000;
+}
+
+.light-theme .portfolio-btns button:hover{
+  color: var(--gld)
+}
+
+.light-theme .portfolio-btns .button-gld {
+  color: #fff;
+}
+
+.light-theme .portfolio-btns .button-gld:hover {
+  color: black;
+}
+
+@media (min-width: 769px) {
+  .nav.light-theme {
+    background-color: transparent;
+  }
+  .light-theme .nav-link {
+    color: white;
+  }
+
+  .light-theme .nav-link:hover {
+    color: var(--gld)
+  }
+
+}
+
+@media (max-width: 768px) {
+  .light-theme .nav-link {
+    color: #000;
+  }
+
+  .burger.light-theme {
+    background-color: transparent;
+  }
+
+  .light-theme a:hover {
+    color: var(--gld)
+  }
+
+}
+
+
+

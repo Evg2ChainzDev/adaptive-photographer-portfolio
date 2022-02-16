@@ -1,0 +1,21 @@
+.video-section-title {
+    margin-top: 35px;
+    margin-bottom: 30px;
+}
+
+.section-video-wrapper {
+    position: relative;
+}
+
+.button-play {
+    position: absolute;
+    top: calc(50% - 65px);
+    left: calc(50% - 65px);
+    transition: 0.3s;
+}
+
+.button-play:hover {
+    filter: invert(26%) sepia(15%) saturate(638%) hue-rotate(7deg) brightness(92%)
+      contrast(87%);
+      cursor: pointer;
+  }

@@ -1,0 +1,27 @@
+.section-title-portfolio {
+    margin-bottom: 27px;
+}
+
+.section-title-portfolio::before {
+    width: calc(50% - 100px);
+}
+
+.section-title-portfolio::after {
+    width: calc(50% - 105px);
+}
+
+.portfolio-buttons-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    justify-content: center;
+}
+
+.portfolio-picture-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    width: 1400px;
+    justify-content: space-between;
+    gap: 25px;
+    padding: 60px 0 0 0;
+}
